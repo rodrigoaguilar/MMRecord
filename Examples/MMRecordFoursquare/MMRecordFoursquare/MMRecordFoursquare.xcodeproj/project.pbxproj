@@ -11,6 +11,8 @@
 		26F9870918666C03000CAF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F9870518666C03000CAF96 /* Main.storyboard */; };
 		26F9870A18666C03000CAF96 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F9870818666C03000CAF96 /* MMViewController.m */; };
 		26F9870D18667076000CAF96 /* MMVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F9870C18667076000CAF96 /* MMVenueViewController.m */; };
+		402D8B268374332A5CCB6C66 /* libPods-MMRecordFoursquareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57071243C2184D5E9397B2C5 /* libPods-MMRecordFoursquareTests.a */; };
+		4B5A394EE51920A060FA8036 /* libPods-MMRecordFoursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A87CBBE69E56BBE75868BCFA /* libPods-MMRecordFoursquare.a */; };
 		550DFA981846AF2200E76A6B /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 550DFA971846AF2200E76A6B /* Location.m */; };
 		550DFA9B1846AF2300E76A6B /* PhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 550DFA9A1846AF2300E76A6B /* PhotoItem.m */; };
 		550DFA9E1846AF2300E76A6B /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 550DFA9D1846AF2300E76A6B /* FSCategory.m */; };
@@ -30,15 +32,6 @@
 		55D2782C1829765E008CB6B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D2780E1829765E008CB6B4 /* UIKit.framework */; };
 		55D278341829765E008CB6B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55D278321829765E008CB6B4 /* InfoPlist.strings */; };
 		55D278361829765E008CB6B4 /* MMRecordFoursquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278351829765E008CB6B4 /* MMRecordFoursquareTests.m */; };
-		55D278561829769B008CB6B4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278441829769B008CB6B4 /* AFHTTPRequestOperation.m */; };
-		55D278571829769B008CB6B4 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278461829769B008CB6B4 /* AFHTTPRequestOperationManager.m */; };
-		55D278581829769B008CB6B4 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278481829769B008CB6B4 /* AFHTTPSessionManager.m */; };
-		55D278591829769B008CB6B4 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2784B1829769B008CB6B4 /* AFNetworkReachabilityManager.m */; };
-		55D2785A1829769B008CB6B4 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2784D1829769B008CB6B4 /* AFSecurityPolicy.m */; };
-		55D2785B1829769B008CB6B4 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2784F1829769B008CB6B4 /* AFURLConnectionOperation.m */; };
-		55D2785C1829769B008CB6B4 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278511829769B008CB6B4 /* AFURLRequestSerialization.m */; };
-		55D2785D1829769B008CB6B4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278531829769B008CB6B4 /* AFURLResponseSerialization.m */; };
-		55D2785E1829769B008CB6B4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D278551829769B008CB6B4 /* AFURLSessionManager.m */; };
 		55D27866182977F5008CB6B4 /* MMFoursquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D27865182977F5008CB6B4 /* MMFoursquareSessionManager.m */; };
 		55D2786918297C9E008CB6B4 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2786818297C9E008CB6B4 /* Venue.m */; };
 		55D2786C18297CB7008CB6B4 /* MMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2786B18297CB7008CB6B4 /* MMDataManager.m */; };
@@ -110,25 +103,6 @@
 		55D278311829765E008CB6B4 /* MMRecordFoursquareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMRecordFoursquareTests-Info.plist"; sourceTree = "<group>"; };
 		55D278331829765E008CB6B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55D278351829765E008CB6B4 /* MMRecordFoursquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMRecordFoursquareTests.m; sourceTree = "<group>"; };
-		55D278431829769B008CB6B4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		55D278441829769B008CB6B4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		55D278451829769B008CB6B4 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		55D278461829769B008CB6B4 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		55D278471829769B008CB6B4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		55D278481829769B008CB6B4 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		55D278491829769B008CB6B4 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		55D2784A1829769B008CB6B4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		55D2784B1829769B008CB6B4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		55D2784C1829769B008CB6B4 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		55D2784D1829769B008CB6B4 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		55D2784E1829769B008CB6B4 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		55D2784F1829769B008CB6B4 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		55D278501829769B008CB6B4 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		55D278511829769B008CB6B4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		55D278521829769B008CB6B4 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		55D278531829769B008CB6B4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		55D278541829769B008CB6B4 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		55D278551829769B008CB6B4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		55D27864182977F5008CB6B4 /* MMFoursquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFoursquareSessionManager.h; sourceTree = "<group>"; };
 		55D27865182977F5008CB6B4 /* MMFoursquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFoursquareSessionManager.m; sourceTree = "<group>"; };
 		55D2786718297C9E008CB6B4 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
@@ -165,6 +139,12 @@
 		55F8C4BA1848F8E000037D45 /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
 		55FB3C1818C1A10400B861BA /* AFMMRecordSessionManagerServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordSessionManagerServer.h; sourceTree = "<group>"; };
 		55FB3C1918C1A10400B861BA /* AFMMRecordSessionManagerServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordSessionManagerServer.m; sourceTree = "<group>"; };
+		57071243C2184D5E9397B2C5 /* libPods-MMRecordFoursquareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMRecordFoursquareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAF193967813E4CD1080CDA /* Pods-MMRecordFoursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMRecordFoursquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMRecordFoursquare/Pods-MMRecordFoursquare.release.xcconfig"; sourceTree = "<group>"; };
+		971F85E96746CFDD74C7B088 /* Pods-MMRecordFoursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMRecordFoursquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMRecordFoursquare/Pods-MMRecordFoursquare.debug.xcconfig"; sourceTree = "<group>"; };
+		9F36ABF27EC883044A56F2B0 /* Pods-MMRecordFoursquareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMRecordFoursquareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMRecordFoursquareTests/Pods-MMRecordFoursquareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A87CBBE69E56BBE75868BCFA /* libPods-MMRecordFoursquare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMRecordFoursquare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF45F6CB030FEAFD4FDDF3AC /* Pods-MMRecordFoursquareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMRecordFoursquareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMRecordFoursquareTests/Pods-MMRecordFoursquareTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +159,7 @@
 				55D2780D1829765E008CB6B4 /* CoreGraphics.framework in Frameworks */,
 				55D2780F1829765E008CB6B4 /* UIKit.framework in Frameworks */,
 				55D2780B1829765E008CB6B4 /* Foundation.framework in Frameworks */,
+				4B5A394EE51920A060FA8036 /* libPods-MMRecordFoursquare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +170,7 @@
 				55D2782A1829765E008CB6B4 /* XCTest.framework in Frameworks */,
 				55D2782C1829765E008CB6B4 /* UIKit.framework in Frameworks */,
 				55D2782B1829765E008CB6B4 /* Foundation.framework in Frameworks */,
+				402D8B268374332A5CCB6C66 /* libPods-MMRecordFoursquareTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +184,7 @@
 				55D2782F1829765E008CB6B4 /* MMRecordFoursquareTests */,
 				55D278091829765E008CB6B4 /* Frameworks */,
 				55D278081829765E008CB6B4 /* Products */,
+				F29EC937A593C6FC4A867CA3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +208,8 @@
 				55D2780C1829765E008CB6B4 /* CoreGraphics.framework */,
 				55D2780E1829765E008CB6B4 /* UIKit.framework */,
 				55D278291829765E008CB6B4 /* XCTest.framework */,
+				A87CBBE69E56BBE75868BCFA /* libPods-MMRecordFoursquare.a */,
+				57071243C2184D5E9397B2C5 /* libPods-MMRecordFoursquareTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -284,38 +269,11 @@
 		55D278411829769B008CB6B4 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				55D278421829769B008CB6B4 /* AFNetworking */,
 				55F8C4B81848F8E000037D45 /* AFMMRecordResponseSerializer */,
 				55FB3C1718C1A10400B861BA /* AFMMRecordSessionManagerServer */,
 				55D2789018297E01008CB6B4 /* MMRecord */,
 			);
 			path = Vendor;
-			sourceTree = "<group>";
-		};
-		55D278421829769B008CB6B4 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				55D278431829769B008CB6B4 /* AFHTTPRequestOperation.h */,
-				55D278441829769B008CB6B4 /* AFHTTPRequestOperation.m */,
-				55D278451829769B008CB6B4 /* AFHTTPRequestOperationManager.h */,
-				55D278461829769B008CB6B4 /* AFHTTPRequestOperationManager.m */,
-				55D278471829769B008CB6B4 /* AFHTTPSessionManager.h */,
-				55D278481829769B008CB6B4 /* AFHTTPSessionManager.m */,
-				55D278491829769B008CB6B4 /* AFNetworking.h */,
-				55D2784A1829769B008CB6B4 /* AFNetworkReachabilityManager.h */,
-				55D2784B1829769B008CB6B4 /* AFNetworkReachabilityManager.m */,
-				55D2784C1829769B008CB6B4 /* AFSecurityPolicy.h */,
-				55D2784D1829769B008CB6B4 /* AFSecurityPolicy.m */,
-				55D2784E1829769B008CB6B4 /* AFURLConnectionOperation.h */,
-				55D2784F1829769B008CB6B4 /* AFURLConnectionOperation.m */,
-				55D278501829769B008CB6B4 /* AFURLRequestSerialization.h */,
-				55D278511829769B008CB6B4 /* AFURLRequestSerialization.m */,
-				55D278521829769B008CB6B4 /* AFURLResponseSerialization.h */,
-				55D278531829769B008CB6B4 /* AFURLResponseSerialization.m */,
-				55D278541829769B008CB6B4 /* AFURLSessionManager.h */,
-				55D278551829769B008CB6B4 /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		55D2785F182977AA008CB6B4 /* Communication */ = {
@@ -440,6 +398,17 @@
 			path = ../../../../../Source/AFMMRecordSessionManagerServer;
 			sourceTree = "<group>";
 		};
+		F29EC937A593C6FC4A867CA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				971F85E96746CFDD74C7B088 /* Pods-MMRecordFoursquare.debug.xcconfig */,
+				6DAF193967813E4CD1080CDA /* Pods-MMRecordFoursquare.release.xcconfig */,
+				9F36ABF27EC883044A56F2B0 /* Pods-MMRecordFoursquareTests.debug.xcconfig */,
+				BF45F6CB030FEAFD4FDDF3AC /* Pods-MMRecordFoursquareTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -447,9 +416,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D278391829765E008CB6B4 /* Build configuration list for PBXNativeTarget "MMRecordFoursquare" */;
 			buildPhases = (
+				9AF735D731AAA0C367D4D638 /* [CP] Check Pods Manifest.lock */,
 				55D278031829765E008CB6B4 /* Sources */,
 				55D278041829765E008CB6B4 /* Frameworks */,
 				55D278051829765E008CB6B4 /* Resources */,
+				29B0F60193506BF7459D9537 /* [CP] Embed Pods Frameworks */,
+				5B9E77BBD574ED23A0F4B0FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -464,9 +436,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D2783C1829765E008CB6B4 /* Build configuration list for PBXNativeTarget "MMRecordFoursquareTests" */;
 			buildPhases = (
+				03AB0526EDA8ADE11AF6FA6D /* [CP] Check Pods Manifest.lock */,
 				55D278241829765E008CB6B4 /* Sources */,
 				55D278251829765E008CB6B4 /* Frameworks */,
 				55D278261829765E008CB6B4 /* Resources */,
+				354414563CD4237464D58DC5 /* [CP] Embed Pods Frameworks */,
+				DACB15DE18D05D9B283F7036 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -485,7 +460,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MM;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Mutual Mobile";
 				TargetAttributes = {
 					55D278271829765E008CB6B4 = {
@@ -535,6 +510,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03AB0526EDA8ADE11AF6FA6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29B0F60193506BF7459D9537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMRecordFoursquare/Pods-MMRecordFoursquare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		354414563CD4237464D58DC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMRecordFoursquareTests/Pods-MMRecordFoursquareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9E77BBD574ED23A0F4B0FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMRecordFoursquare/Pods-MMRecordFoursquare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF735D731AAA0C367D4D638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DACB15DE18D05D9B283F7036 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMRecordFoursquareTests/Pods-MMRecordFoursquareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55D278031829765E008CB6B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -543,17 +611,10 @@
 				55F8C4BB1848F8E000037D45 /* AFMMRecordResponseSerializer.m in Sources */,
 				550DFA9E1846AF2300E76A6B /* FSCategory.m in Sources */,
 				26F9870D18667076000CAF96 /* MMVenueViewController.m in Sources */,
-				55D278561829769B008CB6B4 /* AFHTTPRequestOperation.m in Sources */,
 				55D2781B1829765E008CB6B4 /* MMAppDelegate.m in Sources */,
-				55D278571829769B008CB6B4 /* AFHTTPRequestOperationManager.m in Sources */,
-				55D278591829769B008CB6B4 /* AFNetworkReachabilityManager.m in Sources */,
 				55D278AC18297E01008CB6B4 /* MMServer.m in Sources */,
-				55D2785D1829769B008CB6B4 /* AFURLResponseSerialization.m in Sources */,
-				55D2785B1829769B008CB6B4 /* AFURLConnectionOperation.m in Sources */,
 				55D27866182977F5008CB6B4 /* MMFoursquareSessionManager.m in Sources */,
-				55D2785A1829769B008CB6B4 /* AFSecurityPolicy.m in Sources */,
 				55D278AD18297E01008CB6B4 /* MMServerPageManager.m in Sources */,
-				55D278581829769B008CB6B4 /* AFHTTPSessionManager.m in Sources */,
 				55D2786C18297CB7008CB6B4 /* MMDataManager.m in Sources */,
 				550DFAAA1846AF2300E76A6B /* PhotoGroup.m in Sources */,
 				550DFAA41846AF2300E76A6B /* Menu.m in Sources */,
@@ -566,10 +627,8 @@
 				55D278A818297E01008CB6B4 /* MMRecordMarshaler.m in Sources */,
 				55D2786918297C9E008CB6B4 /* Venue.m in Sources */,
 				557FB4F81864B0A30010748E /* AFMMRecordResponseSerializationMapper.m in Sources */,
-				55D2785C1829769B008CB6B4 /* AFURLRequestSerialization.m in Sources */,
 				55D278AB18297E01008CB6B4 /* MMRecordResponse.m in Sources */,
 				55D2786F18297CC6008CB6B4 /* Foursquare.xcdatamodeld in Sources */,
-				55D2785E1829769B008CB6B4 /* AFURLSessionManager.m in Sources */,
 				55D278A918297E01008CB6B4 /* MMRecordProtoRecord.m in Sources */,
 				55D278A718297E01008CB6B4 /* MMRecordCache.m in Sources */,
 				550DFA9B1846AF2300E76A6B /* PhotoItem.m in Sources */,
@@ -643,8 +702,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -683,6 +744,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -697,6 +759,7 @@
 		};
 		55D2783A1829765E008CB6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971F85E96746CFDD74C7B088 /* Pods-MMRecordFoursquare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -705,6 +768,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMRecordFoursquare/MMRecordFoursquare-Prefix.pch";
 				INFOPLIST_FILE = "MMRecordFoursquare/MMRecordFoursquare-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MutualMobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -712,6 +776,7 @@
 		};
 		55D2783B1829765E008CB6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAF193967813E4CD1080CDA /* Pods-MMRecordFoursquare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -720,6 +785,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMRecordFoursquare/MMRecordFoursquare-Prefix.pch";
 				INFOPLIST_FILE = "MMRecordFoursquare/MMRecordFoursquare-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MutualMobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -727,6 +793,7 @@
 		};
 		55D2783D1829765E008CB6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F36ABF27EC883044A56F2B0 /* Pods-MMRecordFoursquareTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMRecordFoursquare.app/MMRecordFoursquare";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -741,6 +808,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MMRecordFoursquareTests/MMRecordFoursquareTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MutualMobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -749,6 +817,7 @@
 		};
 		55D2783E1829765E008CB6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF45F6CB030FEAFD4FDDF3AC /* Pods-MMRecordFoursquareTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMRecordFoursquare.app/MMRecordFoursquare";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -759,6 +828,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMRecordFoursquare/MMRecordFoursquare-Prefix.pch";
 				INFOPLIST_FILE = "MMRecordFoursquareTests/MMRecordFoursquareTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MutualMobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
