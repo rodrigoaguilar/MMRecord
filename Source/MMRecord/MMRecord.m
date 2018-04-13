@@ -436,8 +436,8 @@ NSString * const MMRecordAttributeAlternateNameKey = @"MMRecordAttributeAlternat
      }];
 }
 
-+ (void)startBatchedRequestsInExecutionBlock:(void(^)())batchExecutionBlock
-                         withCompletionBlock:(void(^)())completionBlock {
++ (void)startBatchedRequestsInExecutionBlock:(void(^)(void))batchExecutionBlock
+                         withCompletionBlock:(void(^)(void))completionBlock {
     [self setBatchDispatchGroup:YES];
     dispatch_group_t dispatchGroup = [self dispatchGroup];
     batchExecutionBlock();

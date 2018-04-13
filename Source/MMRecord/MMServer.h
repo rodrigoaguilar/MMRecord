@@ -30,7 +30,7 @@
  successfully.  This block should re-call the request that was started prior to the session timing 
  out.
  */
-typedef void (^MMServerSessionTimeoutRestartLastRequestBlock)();
+typedef void (^MMServerSessionTimeoutRestartLastRequestBlock)(void);
 
 /**
  A block that should be called when the session times out. 

@@ -428,8 +428,8 @@ extern NSString * const MMRecordAttributeAlternateNameKey;
  @param completionBlock A block to be executed when the dispatch group notify occurs signaling that 
  the group has finished executing.
  */
-+ (void)startBatchedRequestsInExecutionBlock:(void(^)())batchExecutionBlock 
-                         withCompletionBlock:(void(^)())completionBlock;
++ (void)startBatchedRequestsInExecutionBlock:(void(^)(void))batchExecutionBlock
+                         withCompletionBlock:(void(^)(void))completionBlock;
 
 
 ///-----------------------------------------

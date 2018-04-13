@@ -76,14 +76,14 @@
   NSTimeInterval duration = [notification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
   UIViewAnimationCurve curve = [notification.userInfo[UIKeyboardAnimationCurveUserInfoKey] integerValue];
   
-  void (^animations)() = ^{
-    UIEdgeInsets contentInset = _tableView.contentInset;
+    void (^animations)(void) = ^{
+        UIEdgeInsets contentInset = self->_tableView.contentInset;
     contentInset.bottom = (self.view.bounds.size.height - CGRectGetMinY(endFrame));
-    _tableView.contentInset = contentInset;
+        self->_tableView.contentInset = contentInset;
     
-    UIEdgeInsets scrollIndicatorInsets = _tableView.scrollIndicatorInsets;
+        UIEdgeInsets scrollIndicatorInsets = self->_tableView.scrollIndicatorInsets;
     scrollIndicatorInsets.bottom = (self.view.bounds.size.height - CGRectGetMinY(endFrame));
-    _tableView.scrollIndicatorInsets = scrollIndicatorInsets;
+        self->_tableView.scrollIndicatorInsets = scrollIndicatorInsets;
   };
   
   UIViewAnimationOptions options = (curve << 16) | UIViewAnimationOptionBeginFromCurrentState;
